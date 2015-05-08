@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+
+    <script src="js/jquery-1.11.2.js"></script>
+    <script src="js/ol.js"></script>
+    <link href="css/ol.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <title>Test Open Layer</title>
+</head>
+<body>
+
+<div class="container-fluid">
+    <br/>
+
+    <div class="col-md-8">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h4 class="">Map Open Layer</h4>
+            </div>
+            <div class="panel-body">
+                <div id="map" class="map"></div>
+            </div>
+            <div class="panel-footer">
+                <button id="zoomin" class="btn btn-primary">Zoom In</button>
+                <button id="zoomout" class="btn btn-warning">Zoom Out</button>
+                <button id="findme" class="btn btn-info">Find Me !!</button>
+                <label id="lat"></label>
+                <label id="lng"></label>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h4 class="">Detail Info</h4>
+            </div>
+            <div class="panel-body">
+                <div id="detail" class="detail">
+
+                </div>
+            </div>
+            <div class="panel-footer">
+                <button id="addLayer" class="btn btn-primary">Add</button>
+                <button id="remLayer" class="btn btn-danger">Remove</button>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+.map {
+    height: 400px;
+    width: auto;
+}
+
+.map:-moz-full-screen {
+    height: 100%;
+    width: 100%;
+}
+.map:-webkit-full-screen {
+    height: 100%;
+    width: 100%;
+}
+.map:-ms-fullscreen {
+    height: 100%;
+    width: 100%;
+}
+.map:fullscreen {
+    height: 100%;
+    width: 100%;
+}
+.ol-rotate {
+    top: 3em;
+}
+
+.detail{
+    height: 400px;
+}
